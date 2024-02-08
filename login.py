@@ -1,7 +1,7 @@
 import hashlib
 
 USERS = "users.txt"
-
+    
 def read_users():
     """Reads user data from users.txt"""
     try:
