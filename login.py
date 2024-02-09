@@ -24,10 +24,10 @@ def write_users(user_dict):
 def register():
     print("Welcome! Please create your account below!")
     users = read_users()
-    username = input("Username: ")
     while True:
+        username = input("Username: ")
         if username in users:
-            print("Username taken, please try a different username.")
+            print("Username taken. Please try again")
         else:
             break
     password = input("Password: ")
